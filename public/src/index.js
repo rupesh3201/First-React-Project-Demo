@@ -4,7 +4,7 @@ const root = createroot(document.getElementById("root"));
 
 
 //jsx has two rule all tages must be close and there is one parent elemnt
-function Sayhello()
+function SayHello()
 {
     console.log("hello Rupesh") ;
 }
@@ -13,12 +13,20 @@ function Sayhello()
 //componets name should be in pascal case uppercameel case
 //and function must be return jsx 
 function Nilesh()
-
 {
-
+return <p>hello nilesh</p>
 }
 root.render(<><h1 >First react app {2+2}</h1>
-    <h1>HII guys</h1></>
+    <h1>HII guys</h1>
+    SayHello()
+    <Nilesh/>
+    <Nilesh/>
+    </>
 )// jsx {is jsx exprssion} //
 //<></> is called jsx fragment
+
+//calling compontes
+
+
+
 
