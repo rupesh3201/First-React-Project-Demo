@@ -21,11 +21,21 @@ const Pankaj  = ()=>{
     const random_num = Math.floor(Math.random()*10)
     return <h1>random number {random_num}</h1>
 }
+//props
+const Props = (props) =>{
+    console.log(props)
+    return (<h1>learning props </h1>)
+}
+{
+
+}
 root.render(<><h1 >First react app {2+2}</h1>
     <h1>HII guys</h1>
     SayHello()
     <Nilesh/>
     <Nilesh/>
+   < Props/>
+
     </>
 )// jsx {is jsx exprssion} //
 //<></> is called jsx fragment
