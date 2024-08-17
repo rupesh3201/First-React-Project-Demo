@@ -16,6 +16,10 @@ function Nilesh()
 {
 return <p>hello nilesh</p>
 }
+//componets provoide reausablity
+const Pankaj  = ()=>{
+    return <h1>Hello Pankaj</h1>
+}
 root.render(<><h1 >First react app {2+2}</h1>
     <h1>HII guys</h1>
     SayHello()
