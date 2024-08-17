@@ -22,8 +22,9 @@ const Pankaj  = ()=>{
     return <h1>random number {random_num}</h1>
 }
 //props
-const Props = (props) =>{
-    console.log(props)
+//props is usually used to take property of 
+const Props = (props) =>{ // take input
+    console.log(props) 
     return (<h1>learning props </h1>)
 }
 {
@@ -34,7 +35,7 @@ root.render(<><h1 >First react app {2+2}</h1>
     SayHello()
     <Nilesh/>
     <Nilesh/>
-   < Props/>
+   < Props name="Rupesh" city="Pune" /> 
 
     </>
 )// jsx {is jsx exprssion} //
