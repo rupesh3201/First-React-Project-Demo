@@ -18,7 +18,8 @@ return <p>hello nilesh</p>
 }
 //componets provoide reausablity
 const Pankaj  = ()=>{
-    return <h1>Hello Pankaj</h1>
+    const random_num = Math.floor(Math.random()*10)
+    return <h1>random number {random_num}</h1>
 }
 root.render(<><h1 >First react app {2+2}</h1>
     <h1>HII guys</h1>
