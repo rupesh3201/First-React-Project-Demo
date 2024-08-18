@@ -34,8 +34,14 @@ const Cholate = (Toffy)=>
     //cutmized
     return (<><h1>{Toffy.name}- {Toffy.price}</h1><hr/></>) 
     // destruing unboxing
-     const{name, price } = props;
-    // unboxing
+     const{name, price } = props
+    // 
+    //boxing strucing
+    const props ={
+        name : "eclars",
+        price : "2"
+    
+    }
 
 }
 root.render(<><h1 >First react app {2+2}</h1>
