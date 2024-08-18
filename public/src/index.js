@@ -32,7 +32,8 @@ const Cholate = (Toffy)=>
 {
     console.log(Toffy)
     //cutmized
-    return (<><h1>{Toffy.name}- {Toffy.price}</h1></>) // destruing unboxing
+    return (<><h1>{Toffy.name}- {Toffy.price}</h1><hr/></>) 
+    // destruing unboxing
     // unboxing
 
 }
