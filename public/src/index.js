@@ -32,7 +32,7 @@ const Cholate = (Toffy)=>
 {
     console.log(Toffy)
     return (<><h1>{Toffy.name}- {Toffy.price}</h1></>) // destruing unboxing
-    
+    // unboxing
 
 }
 root.render(<><h1 >First react app {2+2}</h1>
