@@ -27,8 +27,11 @@ const Props = (props) =>{ // take input
     console.log(props) 
     return(<><h1>learning props </h1><hr/></>)
  //we can use componet to reuse of code less code
-}
+}//componets crearted
+const Cholate = (Toffy)=>
 {
+    console.log(Toffy)
+    return (<h1>kikat</h1>)
 
 }
 root.render(<><h1 >First react app {2+2}</h1>
@@ -36,6 +39,7 @@ root.render(<><h1 >First react app {2+2}</h1>
     SayHello()
     <Nilesh/>
     <Nilesh/>
+    <Cholate name =""/>
    < Props name="Rupesh" city="Pune" /> 
 
     </>
