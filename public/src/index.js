@@ -28,13 +28,14 @@ const Props = (props) =>{ // take input
     return(<><h1>learning props </h1><hr/></>)
  //we can use componet to reuse of code less code
 }//componets crearted
-const Cholate = (Toffy)=>
+const Cholate = ({name, price })=> //dircetly taking 
+
 {
     console.log(Toffy)
     //cutmized
     return (<><h1>{name}- {price}</h1><hr/></>)  // we did not need . operator 
     // destruing unboxing
-     const{name, price } = props
+    
     // 
     //boxing strucing
     const props ={
