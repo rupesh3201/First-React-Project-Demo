@@ -39,7 +39,8 @@ root.render(<><h1 >First react app {2+2}</h1>
     SayHello()
     <Nilesh/>
     <Nilesh/>
-    <Cholate name =""/>
+    <Cholate name =" kikat " price= "10"/> 
+    <Cholate name =" kikat " price= "10"/>
    < Props name="Rupesh" city="Pune" /> 
 
     </>
