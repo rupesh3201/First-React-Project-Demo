@@ -25,7 +25,8 @@ const Pankaj  = ()=>{
 //props is usually used to take property of 
 const Props = (props) =>{ // take input
     console.log(props) 
-    return (<h1>learning props </h1>)
+    return(<><h1>learning props </h1><hr/></>)
+ //we can use componet to reuse of code less code
 }
 {
 
