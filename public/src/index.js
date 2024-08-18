@@ -40,7 +40,7 @@ root.render(<><h1 >First react app {2+2}</h1>
     <Nilesh/>
     <Nilesh/>
     <Cholate name =" kikat " price= "10"/> 
-    <Cholate name =" kikat " price= "10"/>
+    <Cholate name =" fivestar " price= "10"/>
    < Props name="Rupesh" city="Pune" /> 
 
     </>
