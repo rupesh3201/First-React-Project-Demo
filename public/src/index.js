@@ -31,6 +31,7 @@ const Props = (props) =>{ // take input
 const Cholate = (Toffy)=>
 {
     console.log(Toffy)
+    //cutmized
     return (<><h1>{Toffy.name}- {Toffy.price}</h1></>) // destruing unboxing
     // unboxing
 
