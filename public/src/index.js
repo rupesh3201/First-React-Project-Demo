@@ -34,6 +34,7 @@ const Cholate = (Toffy)=>
     //cutmized
     return (<><h1>{Toffy.name}- {Toffy.price}</h1><hr/></>) 
     // destruing unboxing
+     const{name, price } = props;
     // unboxing
 
 }
