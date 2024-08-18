@@ -35,6 +35,7 @@ const Cholate = ({name, price })=> //dircetly taking
     //cutmized
     return (<><h1>{name}- {price}</h1><hr/></>)  // we did not need . operator 
     // destruing unboxing
+    const {name , price } = props
     
     // 
     //boxing strucing
