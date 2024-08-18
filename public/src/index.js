@@ -32,7 +32,7 @@ const Cholate = (Toffy)=>
 {
     console.log(Toffy)
     //cutmized
-    return (<><h1>{Toffy.name}- {Toffy.price}</h1><hr/></>) 
+    return (<><h1>{name}- {price}</h1><hr/></>)  // we did not need . operator 
     // destruing unboxing
      const{name, price } = props
     // 
